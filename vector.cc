@@ -61,5 +61,8 @@ int main(){
 	cout << "vd size=" << vd.size() << endl;
 	cout << "vd cap=" << vd.capacity() << endl;
 
+	for(vector<int>::iterator it=vi.begin() ; it!=vi.end() ; ++it) { //suzdavame iterator i mu davame stoinosta na nachalniq element na vi vektora ; : : razreshavat da wlojim klasa iterator v klasa vector
+		cout << "*it=" << *it << endl;
+	}
 	return 0;
 }
